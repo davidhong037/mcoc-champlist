@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Marvel Contest of Champions Champion List</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+</html>
+<body>
+    <header>
+        <h1 class="title">Marvel Contest of Champion Champion List</h1>
+        <img src="./images/TUdEZvtHRkDrfiG-800x450-noPad.webp" alt="MCOC Logo">
+    </header>
+    <main>
+        <form id="input">
+            <fieldset>
+                <legend>Champion Information</legend>
+                <div class="container" id="name-container">
+                    <label for="name" id="name-label">Champion: 
+                        <input id="name" type="text" placeholder="Enter champion name" required/>
+                    </label>
+                </div>
+                <div class="container" id="rarity-container">Star Level:
+                    <label for="rarity" id="rarity-label">
+                        <input id="rarity" type="radio" value="6-star" class="inline" name="star-level" checked/>6-star
+                    </label>
+                    <label for="rarity" id="rarity-label">
+                        <input id="rarity" type="radio" value="7-star" class="inline" name="star-level"/>7-star
+                    </label>
+                </div>
+                <div class="container" id="ascend-container">
+                    <label for="ascension" id="ascend-label">Ascended?:
+                        <input id="ascension" type="radio" value="yes" class="inline" name="ascend" checked/>Yes
+                    </label>
+                    <label for="ascension" id="ascend-label">
+                        <input id="ascension" type="radio" value="no" class="inline" name="ascend" />No
+                    </label>
+                </div>
+                <div class="container" id="rank-container">
+                    <label for="dropdown" id="rank">Rank:
+                        <select id="dropdown">
+                            <option value="">(Select One)</option>
+                            <option value="1">Rank 1</option>
+                            <option value="2">Rank 2</option>
+                            <option value="3">Rank 3</option>
+                            <option value="4">Rank 4</option>
+                            <option value="5">Rank 5</option>
+                            <option value="6">Rank 6</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="container" id="sig-container">
+                    <label for="dropdown" id="sig-level">Signature Level:
+                        <select id="dropdown">
+                            <option value="">(Select One)</option>
+                            <option value="1">0</option>
+                            <option value="2">20</option>
+                            <option value="3">40</option>
+                            <option value="4">60</option>
+                            <option value="5">80</option>
+                            <option value="6">100</option>
+                            <option value="7">120</option>
+                            <option value="8">140</option>
+                            <option value="9">160</option>
+                            <option value="10">180</option>
+                            <option value="11">200</option>
+                        </select>
+                    </label>
+                </div>
+                <legend>Class Type</legend>
+                <div class="container" id="class-container">
+                    <label for="class-type" id="class-label">
+                        <input id="class-type" type="radio" value="science" class="inline" name="class" checked/><img src="./images/Science.webp" alt="Science Type" id="science">
+                    </label>
+                    <label for="class-type" id="class-label">
+                        <input id="class-type" type="radio" value="skill" class="inline" name="class"/><img src="./images/Skill.webp" alt="Skill Type" id="skill">
+                    </label>
+                    <label for="class-type" id="class-label">
+                        <input id="class-type" type="radio" value="mutant" class="inline" name="class"/><img src="./images/Mutant.webp" alt="Mutant Type" id="mutant">
+                    </label>
+                    <label for="class-type" id="class-label">
+                        <input id="class-type" type="radio" value="cosmic" class="inline" name="class"/><img src="./images/Cosmic.webp" alt="Cosmic Type" id="cosmic">
+                    </label>
+                    <label for="class-type" id="class-label">
+                        <input id="class-type" type="radio" value="tech" class="inline" name="class"/><img src="./images/Tech.webp" alt="Tech Type" id="tech">
+                    </label>
+                    <label for="class-type" id="class-label">
+                        <input id="class-type" type="radio" value="mystic" class="inline" name="class"/><img src="./images/Mystic.webp" alt="Mystic Type" id="mystic">
+                    </label>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
