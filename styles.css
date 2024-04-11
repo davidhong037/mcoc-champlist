@@ -33,7 +33,7 @@ label {
 }
 
 input, select {
-    margin: 10px 0 0 0;
+    margin: 10px 0;
     width: 100%;
     min-height: 2em;
     border: 1px solid white;
@@ -60,4 +60,9 @@ input[type="submit"] {
 #class-container {
     display: flex;
     justify-content: space-evenly;
+}
+
+.type {
+    max-width: 75%;
+    max-height: 75%;
 }
